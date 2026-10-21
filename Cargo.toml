@@ -3,7 +3,16 @@ name = "rs-sqlite2keys2strings"
 version = "0.1.0"
 edition = "2024"
 
+description = "Lookup keys in SQLite and output JSON"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-sqlite2keys2strings"
+homepage = "https://github.com/takanoriyanagitani/rs-sqlite2keys2strings"
+documentation = "https://docs.rs/rs-sqlite2keys2strings/latest"
+keywords = ["sqlite", "json", "wasi", "kvstore"]
+
 exclude = [
+  "sqlite2keys2strings.wasm",
+  "example.sqlite.db3",
 ]
 
 [lints.rust]
